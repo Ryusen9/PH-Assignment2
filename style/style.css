@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@font-face{
+    font-family: Miama;
+    src: url(../Miama.ttf);
+}
+
+:root{
+    --fontMain: "Inter", sans-serif;
+
+    --colorMain: rgb(230, 83, 60);
+    --tittle: rgb(255, 255, 255);
+    --text: rgba(255, 255, 255, 0.5);
+
+    --colorBG: rgb(34, 34, 34);
+}
+
+html{
+    scroll-behavior: smooth;
+    background-color: black;
+}
+
+header{
+    background-color: transparent;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 120px;
+}
+
+.nav-logo{
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: var(--colorMain);
+    font-style: italic;
+    font-family: var(--fontMain);
+}
+
+.nav-items{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 46px;
+    padding: 5px;
+}
+
+.nav-items ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav-items li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 90px;
+    border-radius: 46px;
+    cursor: pointer;
+    transition: all 250ms ease-in-out;
+}
+
+.nav-items li:hover{
+    background-color: var(--colorMain);
+}
+
+.nav-items a{
+    text-decoration: none;
+    color: var(--tittle);
+    font-weight: 600;
+    font-family: var(--fontMain);
+}
+
+.menu-icon{
+    display: none;
+}

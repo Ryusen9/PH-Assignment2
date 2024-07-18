@@ -1,0 +1,31 @@
+@media screen and (max-width: 1080px) {
+    .nav-container{
+        padding: 20px 60px;
+    }
+
+    .nav-items{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .nav-container{
+        padding: 10px 30px;
+    }
+
+    .nav-items{
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .nav-items{
+        display: none;
+    }
+
+    .menu-icon{
+        display: block;
+        font-size: 2rem;
+        color: var(--tittle);
+    }
+}
