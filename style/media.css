@@ -1,3 +1,83 @@
+@media screen and (min-width: 1200px ) and (max-width: 1440px){
+    .hero-container{
+        padding: 20px 110px;
+        gap: 25px;
+    }
+
+    .hero-right img{
+        left: 25%;
+    }
+
+    #pop1{
+        right: 30px;
+    }
+
+    #pop2{
+        left: 15px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .hero-container{
+        padding: 10px 40px;
+        height: 600px;
+        gap: 12px;
+    }
+
+    .hero-text{
+    }
+
+    .hero-tittle{
+        font-size: 3rem;
+    }
+
+    button{
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+
+    .hero-right{
+    }
+
+    .hero-right img{
+        left: 17%;
+    }
+
+    .popup{
+        width: 120px;
+        height: 70px;
+    }
+
+    .popup h3{
+        font-size: 1.5rem;
+    }
+
+    .popup p{
+        font-size: .85rem;
+    }
+
+    #pop2{
+        width: 150px;
+        height: 90px;
+        left: 10px;
+        bottom: 30;
+    }
+
+    #pop2 h3{
+        font-size: 1.5rem;
+    }
+
+    #pop2 .poptext p{
+        font-size: .85rem;
+    }
+
+    .cirle{
+        width: 30px;
+        height: 30px;
+    }
+
+}
+
 @media screen and (max-width: 1080px) {
     .nav-container{
         padding: 20px 60px;
@@ -16,6 +96,27 @@
     .nav-items{
         width: 65%;
     }
+
+    .hero-container{
+        padding: 10px 15px;
+    }
+
+    .hero-tittle{
+        font-size: 2rem;
+    }
+
+    .hero-right{
+        border: 2px solid wheat;
+    }
+
+    .hero-right img{
+        left: 5%;
+    }
+
+    #pop1{
+        top: 80px;
+        right: 18px;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -27,5 +128,38 @@
         display: block;
         font-size: 2rem;
         color: var(--tittle);
+    }
+
+    .hero-container{
+        flex-direction: column;
+        border: 2px solid red;
+        height: 100%;
+    }
+
+    .hero-text{
+        width: 100%;
+    }
+
+    .hero-right{
+        width: 100%;
+        height: 65vh;
+    }
+
+    .hero-right img{
+        left: 20%;
+    }
+
+    #pop1{
+        right: 80px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .hero-right img{
+        left: 10%;
+    }
+    
+    #pop1{
+        right: 20px;
     }
 }
