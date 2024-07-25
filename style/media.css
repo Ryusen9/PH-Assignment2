@@ -94,6 +94,10 @@
     .card-container{
         gap: 20px;
     }
+
+    .bmi-table{
+        padding: 0;
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -145,6 +149,27 @@
 
     .run-container{
         gap: 40px;
+    }
+
+    .bmi-main-container{
+        padding: 10px;
+    }
+
+    .bmi-main{
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .bmi-table{
+        width: 100%;
+    }
+
+    .bmi-inputs{
+        width: 100%;
+    }
+
+    .bmi-input-main select:last-child{
+        width: 67%;
     }
 }
 
@@ -223,7 +248,22 @@
     .img6{
         display: none;
     }
+
+    .bmi-input-main{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .bmi-input-main input, select{
+        width: 80%;
+    }
+
+    .bmi-input-main select:last-child{
+        width: 80%;
+    }
 }
+
 
 @media screen and (max-width: 425px){
     .hero-right img{
