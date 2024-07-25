@@ -206,6 +206,23 @@
     .run-left button{
         margin: auto;
     }
+
+    .train-image-container{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .img3{
+        display: none;
+    }
+
+    .img5{
+        display: none;
+    }
+
+    .img6{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 425px){
