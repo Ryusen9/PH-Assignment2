@@ -98,6 +98,23 @@
     .bmi-table{
         padding: 0;
     }
+
+    .trainer{
+        width: 200px;
+        height: 150px;
+    }
+
+    .text-area{
+        line-height: 10px;
+    }
+
+    .text-area h5{
+        font-size: 1.25rem;
+    }
+
+    .text-area p{
+        font-size: 0.75rem;
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -262,8 +279,16 @@
     .bmi-input-main select:last-child{
         width: 80%;
     }
-}
 
+    .team-container{
+        grid-template-columns: 1fr;
+    }
+
+    .trainer{
+        width: 80%;
+        height: 400px;
+    }
+}
 
 @media screen and (max-width: 425px){
     .hero-right img{
