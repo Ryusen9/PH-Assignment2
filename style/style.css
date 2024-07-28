@@ -706,3 +706,132 @@ td{
     background-repeat: no-repeat;
     border-radius: 16px;
 }
+
+/* footer area */
+
+.footer-container{
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.footer-main{
+    width: 100%;
+    display: flex;
+    gap: 24px;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.footer-col1{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-col1 .logo{
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--colorMain);
+    font-style: italic;
+    font-family: var(--fontMain); 
+}
+
+.footer-description{
+    width: 80%;
+    font-size: 1rem;
+    font-family: var(--fontMain);
+    color: var(--text);
+    font-weight: 400;
+}
+
+.footer-col2{
+    width: 30%;
+}
+
+.footer-col2 h3{
+    font-size: 2rem;
+    color: var(--tittle);
+    font-family: var(--fontMain);
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footer-col2 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-col2 li{
+    list-style: none;
+    font-size: 1rem;
+    color: var(--text);
+    font-weight: 600;
+    font-family: var(--fontMain);
+    cursor: pointer;
+    transition: all 250ms;
+}
+
+.footer-col2 li:hover{
+    color: var(--tittle);
+}
+
+.footer-col3{
+    width: 30%;   
+}
+
+.footer-col3 h3{
+    font-size: 2rem;
+    color: var(--tittle);
+    font-family: var(--fontMain);
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footer-col3 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-col3 li{
+    list-style: none;
+    font-size: 1rem;
+    color: var(--text);
+    font-weight: 600;
+    font-family: var(--fontMain);
+    cursor: pointer;
+    transition: all 250ms;
+}
+
+.footer-col3 li:hover{
+    color: var(--tittle);
+}
+
+.footer-container hr{
+    width: 60%;
+    margin: 40px auto 40px;
+}
+
+.copyright{
+    font-size: 1rem;
+    font-family: var(--fontMain);
+    font-weight: 600;
+    color: var(--text);
+}
+
+.copyright p{
+    cursor: not-allowed;
+    transition: all 230ms ease;
+}
+
+.copyright p:hover{
+    color: var(--colorMain);
+}

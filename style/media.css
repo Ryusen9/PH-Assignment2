@@ -15,6 +15,16 @@
     #pop2{
         left: 15px;
     }
+
+    .footer-container{
+        padding: 10px;
+    }
+
+    .footer-main{
+        gap: 10px;
+        width: 90%;
+        margin: auto;
+    }
 }
 
 @media screen and (max-width: 1024px){
@@ -188,6 +198,25 @@
     .bmi-input-main select:last-child{
         width: 67%;
     }
+
+    .footer-main{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .footer-col1{
+        grid-column: 1 / 3;
+        width: 100%;
+    }
+
+    .footer-col2{
+        width: 100%;
+    }
+
+    .footer-col3{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -316,4 +345,23 @@
         margin: auto;
         width: 90%;
     }
+
+    .footer-main{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .footer-col2{
+        grid-row: 2 / 3;
+    }
+
+    .footer-col3{
+        grid-row: 3 / 4;
+    }
+
+    .footer-main hr{
+        width: 90%;
+    }
+    
 }
