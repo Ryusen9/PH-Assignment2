@@ -642,7 +642,7 @@ td{
 }
 
 #uniqueCard1{
-    background-image: url(/images/exercise1.jpg);
+    background-image: url(../images/exercise1.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -686,14 +686,14 @@ td{
 }
 
 #uniqueCard2{
-    background-image: url(/images/exercise2.png);
+    background-image: url(../images/exercise2.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #uniqueCard3{
-    background-image: url(/images/exercise3.png);
+    background-image: url(../images/exercise3.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
