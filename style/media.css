@@ -125,6 +125,11 @@
     .text-area p{
         font-size: 0.75rem;
     }
+
+    .unique-card{
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 @media screen and (max-width: 768px){

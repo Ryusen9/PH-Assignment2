@@ -573,6 +573,7 @@ td{
     font-size: 1rem;
     font-weight: 400;
     border: none;
+    color: var(--text);
     background-color: rgba(255, 255, 255, 0.1);
 }
 
@@ -583,6 +584,119 @@ td{
 
 .bmi-input-main input, select:focus{
     border: none;
+}
+
+
+/* unique section */
+.unique-container{
+    width: 90%;
+    margin: 8rem auto;
+    background-color: var(--colorBG);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+.unique-text{
+    text-align: center;
+}
+
+.unique-text h4{
+    color: grey;
+    opacity: 0.4;
+    font-family: var(--fontMain);
+    margin: 0.5rem;
+}
+
+.unique-text h3{
+    font-size: 3rem;
+    font-family: var(--fontMain);
+    font-weight: 700;
+    color: var(--tittle);
+    margin: 1rem;
+}
+
+.unique-text p{
+   color: var(--text);
+   font-family: var(--fontMain);
+   margin-bottom: 2rem;
+}
+
+.unique-card{
+    width: 100%;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    cursor: pointer;
+}
+
+.uniqueCard{
+    width: 100%;
+    height: 30vh;
+    position: relative;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+#uniqueCard1{
+    background-image: url(/images/exercise1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.uniqueCard .content{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    padding: 5rem;
+    display: flex;
+    backdrop-filter: blur(2px);
+    background-color: rgba(128, 128, 128, 0.473);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transform: translateY(100%);
+    overflow: hidden;
+    transition: all 300ms ease-in-out;
+}
+
+.uniqueCard:hover .content{
+    transform: translateY(0%);
+}
+
+.content h4{
+    font-size: 2rem;
+    font-family: var(--fontMain);
+    font-weight: 600;
+    color: var(--tittle);
+}
+
+.content p{
+    color: var(--text);
+    font-family: var(--fontMain);
+    margin-bottom: 0.5rem;
+}
+
+#uniqueCard2{
+    background-image: url(/images/exercise2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#uniqueCard3{
+    background-image: url(/images/exercise3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
